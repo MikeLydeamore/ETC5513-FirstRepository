@@ -8,4 +8,4 @@ Here are some changes I'm making on main
 
 Changes on the web
 
-Changes for a conflict
+Fixing the conflict from my collaborator!
