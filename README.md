@@ -7,3 +7,5 @@ Here is some more detailed additions to my README.
 Here are some changes I'm making on main
 
 Changes on the web
+
+Changes for a conflict
