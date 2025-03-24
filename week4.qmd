@@ -1,0 +1,61 @@
+---
+title: "week4"
+format: html
+knitr:
+  opts_chunk: 
+    fig.path: Images/
+number-sections: true
+number-depth: 3
+theme: minty
+---
+
+## Executive Summary
+
+## Introduction {#sec-introduction}
+
+```{r}
+#| echo: false
+knitr::opts_chunk$set(
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE
+)
+```
+
+```{r}
+#| echo: true
+library(tidyverse)
+library(palmerpenguins)
+```
+
+### Subsection 1.1 {#sec-subsection}
+
+Here is some text
+
+```{r}
+#| label: fig-penguins-plot
+#| fig-cap: "Penguin bill length and bill depth, coloured by species"
+ggplot(penguins, aes(x=bill_length_mm, y=bill_depth_mm, colour = species)) +
+  geom_point()
+```
+
+```{r}
+#| label: fig-penguins-flipper
+#| fig-cap: "Penguin bill length and flipper length, coloured by species"
+ggplot(penguins, aes(x=bill_length_mm, y=flipper_length_mm, colour = species)) +
+  geom_point()
+```
+
+## A whole new section
+
+Remember in the @sec-introduction, @fig-penguins-flipper showed us the flipper length as opposed to @fig-penguins-plot. Test for @sec-subsection
+
+```{r}
+#| label: tbl-summarytable
+
+knitr::kable(head(mtcars), caption = "Summary of the dataset")
+
+knitr::kable(head(penguins), caption = "Summary of the penguins dataset")
+```
+
+@tbl-summarytable shows us a summary of `mtcars`.
