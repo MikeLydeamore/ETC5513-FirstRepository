@@ -10,4 +10,4 @@ Changes on the web
 
 Fixing the conflict from my collaborator!
 
-Adding in a line on main
+Fixing the merge conflict
