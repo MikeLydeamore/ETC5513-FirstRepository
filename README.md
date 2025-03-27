@@ -6,7 +6,7 @@ Here is some more detailed additions to my README.
 
 Here are some changes I'm making on main
 
-Changes on the web
+Changes on the web - here are some more changes o nconflict
 
 Fixing the conflict from my collaborator!
 
