@@ -6,4 +6,4 @@ Here is some more detailed additions to my README.
 
 Here are some changes on the branch feature
 
-Some changes on main
+Fixing the merge conflict!
