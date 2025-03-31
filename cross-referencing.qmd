@@ -1,0 +1,30 @@
+---
+title: "cross-referencing"
+format: html
+---
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(palmerpenguins)
+```
+
+```{r}
+#| label: fig-penguins
+#| fig-cap: "Bill length and depth of penguins, coloured by species"
+ggplot(penguins, aes(x=bill_length_mm, y=bill_depth_mm, colour=species)) +
+  geom_point()
+```
+
+We can see in @fig-penguins that there is separation between species. See @sec-transpose for more information.
+
+## Transposed plot {#sec-transpose}
+
+```{r}
+#| label: fig-penguins2
+#| fig-cap: "Bill length and depth of penguins, coloured by species"
+ggplot(penguins, aes(x=bill_depth_mm, y=bill_length_mm, colour=species)) +
+  geom_point()
+```
+
+
