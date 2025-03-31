@@ -8,4 +8,5 @@ Here are some changes on the branch feature
 
 Fixing the merge conflict!
 
-Some changes that might cause a conflict with a stash
+Adding in some more stash-able changes
+
