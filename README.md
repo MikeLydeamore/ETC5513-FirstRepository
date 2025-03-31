@@ -1,4 +1,4 @@
-# ETC5513-FirstRepository
+# The first repository for ETC5513
 
 This is my first repository I've created for ETC5513.
 
