@@ -9,6 +9,12 @@ number-depth: 3
 theme: minty
 ---
 
+```{css}
+figcaption {
+  text-align: center;
+}
+```
+
 ## Executive Summary
 
 ## Introduction {#sec-introduction}
@@ -16,7 +22,7 @@ theme: minty
 ```{r}
 #| echo: false
 knitr::opts_chunk$set(
-  echo = FALSE,
+  echo = TRUE,
   message = FALSE,
   warning = FALSE
 )
@@ -42,9 +48,13 @@ ggplot(penguins, aes(x=bill_length_mm, y=bill_depth_mm, colour = species)) +
 ```{r}
 #| label: fig-penguins-flipper
 #| fig-cap: "Penguin bill length and flipper length, coloured by species"
+#| lst-label: lst-penguins-code
+#| lst-cap: "Code to produce penguins plot"
 ggplot(penguins, aes(x=bill_length_mm, y=flipper_length_mm, colour = species)) +
   geom_point()
 ```
+
+Cross reference to @lst-penguins-code
 
 ## A whole new section
 
@@ -53,9 +63,7 @@ Remember in the @sec-introduction, @fig-penguins-flipper showed us the flipper l
 ```{r}
 #| label: tbl-summarytable
 
-knitr::kable(head(mtcars), caption = "Summary of the dataset")
-
 knitr::kable(head(penguins), caption = "Summary of the penguins dataset")
 ```
 
-@tbl-summarytable shows us a summary of `mtcars`.
+@tbl-summarytable shows us a summary of `penguins`.
