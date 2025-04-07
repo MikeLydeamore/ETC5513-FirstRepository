@@ -1,6 +1,6 @@
 # The first repository for ETC5513
 
-New branch intro
+New branch intro, change set #1
 
 This is my first repository I've created for ETC5513.
 
