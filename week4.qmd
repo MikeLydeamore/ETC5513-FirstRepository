@@ -1,12 +1,23 @@
 ---
 title: "week4"
-format: html
 knitr:
   opts_chunk: 
     fig.path: Images/
 number-sections: true
 number-depth: 3
 theme: minty
+format:
+  memo-pdf:
+    default
+  report-pdf:
+   toc: true
+   toc_depth: 2
+   number_sections: true
+   highlight: tango
+header-includes:
+  - \usepackage{xcolor}
+  - \usepackage{sectsty}
+  - \sectionfont{\color{olive}}
 ---
 
 ```{css}
