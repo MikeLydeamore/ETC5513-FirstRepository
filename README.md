@@ -15,6 +15,7 @@ Fixing the rebase conflict; Changes on main
 Fixing the merge conflict!
 
 make changes in the past!
+More changes
 
 Some changes we will amend
 
