@@ -69,6 +69,8 @@ ggplot(penguins, aes(x=bill_length_mm, y=bill_depth_mm, colour = species)) +
 #| lst-cap: "Code to produce penguins plot"
 ggplot(penguins, aes(x=bill_length_mm, y=flipper_length_mm, colour = species)) +
   geom_point()
+
+df <- randu
 ```
 
 Cross reference to @lst-penguins-code
